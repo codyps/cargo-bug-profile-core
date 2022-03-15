@@ -1,0 +1,10 @@
+[package]
+name = "profile-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.dev.package.core]
+overflow-checks = false
+debug-assertions = false
